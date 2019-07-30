@@ -6,10 +6,13 @@
 public class HelloGit{
 
  public static void main(String args[]){
- System.out.println("Hello Git...!");
+  HelloGit h = new HelloGit();
+ h.say();
  
  }
+public void say(){
 
-
-
+ System.out.println("Hello Git...!");
+ 
+}
 }
